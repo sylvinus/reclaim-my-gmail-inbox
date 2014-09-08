@@ -1,0 +1,5 @@
+client_secret.json
+gmail.storage
+venv
+*.pyc
+.DS_Store
