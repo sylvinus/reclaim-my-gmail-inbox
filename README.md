@@ -1,8 +1,6 @@
 What this does
 ==============
 
-Starting this project I had 40.000+ unread emails in my gmail inbox. That's a lot. I started missing a couple important emails and decided to take action.
-
 This command-line tool browses through the list of unread emails and tries to delete emails from recurring undesired senders as well as unsubscribing from their mailing lists when possible.
 
 In the end this should help reducing the number of emails you get everyday.
