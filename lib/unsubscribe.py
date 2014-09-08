@@ -9,7 +9,13 @@ UNSUBSCRIBE_MARKERS = [
 
   # French
   "desinscription", "desinscrire", "desabonner", "desabonnement",
-  "ne souhaitez plus", "ne plus recevoir", "cesser de recevoir"
+  "ne souhaitez plus", "ne plus recevoir", "cesser de recevoir",
+
+  # German
+  "abbestellen", "abmelden",
+
+  # Spanish
+  "borrarse", "cancelar", "anular",
 
 ]
 
