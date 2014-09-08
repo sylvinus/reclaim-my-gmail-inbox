@@ -5,7 +5,7 @@ from unidecode import unidecode
 UNSUBSCRIBE_MARKERS = [
 
   # English
-  "unsub", "blacklist", "opt-out", "opt out",
+  "unsub", "blacklist", "opt-out", "opt out", "removealert", "removeme",
 
   # French
   "desinscription", "desinscrire", "desabonner", "desabonnement",
@@ -27,11 +27,10 @@ def FindUnsubscribeLink(message):
 
       for element, attribute, link, pos in doc.iterlinks():
         link_content = unidecode(element.text_content()).lower()
-        link = link.lower()
 
         unsubscribe_links.append((repr(link_content)[0:100], link[0:100]))
         for pattern in UNSUBSCRIBE_MARKERS:
-          if (pattern in link_content) or (pattern in link):
+          if (pattern in link_content) or (pattern in link.lower()):
             unsubscribe_link = link
 
   return unsubscribe_link, unsubscribe_links
