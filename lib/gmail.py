@@ -111,6 +111,10 @@ def ListMessagesMatchingQuery(service, user_id, query='', debug=False):
       page_token = response['nextPageToken']
       response = service.users().messages().list(userId=user_id, q=query,
                                                  pageToken=page_token, maxResults=100).execute()
+
+      if "messages" not in response:
+        continue
+
       messages.extend(response['messages'])
 
       if debug:

@@ -39,9 +39,36 @@ You will have a series of prompts asking you for each sender if you want to tras
 No destructive action will be taken by default, you have to answer "y" for anything to be done.
 
 
+Sample output
+=============
+
+```
+*************************************************
+SlideShare <donotreply@slidesharemail.com>
+
+u'The world&#39;s largest community for sharing presentations. Start sharing! Hello Sylvain Zimmer!'
+u'Combined performance summary of all your uploads. as of 15 Jul, 2013 Total Stats + Weekly change'
+u'You have a new follower on SlideShare Hello Sylvain Zimmer, Good news! John Royle has started'
+u'Your SlideShare stats from last week as of 09 Feb, 2014 Total Stats + Weekly change Total views 47K +'
+u'Your weekly roundup of the best presentations, infographics and documents on SlideShare SlideShare'
+u'You have new followers on SlideShare. Stay up-to-date with your network Hello Sylvain, Follow Denis'
+u'New posts from your SlideShare network today New content from your network today Hello Sylvain,'
+u'You have new followers on SlideShare. Stay up-to-date with your network Hello Sylvain, Good news!'
+u'Look back on your year on SlideShare: View your 2013 stats summary. Sylvain Congratulations, Sylvain!'
+u'You have new followers on SlideShare. Stay up-to-date with your network Hello Sylvain, Follow Soohyun'
+
+550 total messages from SlideShare <donotreply@slidesharemail.com>. Trash them all? [ [y]es / [v]iew online / [N]o ]y
+
+Trashed 550 messages. Good riddance!
+
+http://slidesharemail.com/wf/click?upn=jezcwfmnhu88p3q140orkr6xzeryg8dh3oygnlzq7mjpkakdegbolfp0mdica looks like an unsubcribe link. Do you want to try it in your browser? [y/N]y
+
+```
+
 TODO
 ====
 
- - Try to unsubscribe automatically as an option
  - Compare read/unread ratios
-
+ - More robust unsubscribe link detection
+ - Prettier output
+ - getopts
