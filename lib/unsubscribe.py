@@ -5,10 +5,10 @@ from unidecode import unidecode
 UNSUBSCRIBE_MARKERS = [
 
   # English
-  "unsub", "blacklist", "opt-out", "opt out", "removealert", "removeme",
+  "unsub", "blacklist", "opt-out", "opt out", "removealert", "removeme", "optout", "un-sub", "stop receiv",
 
   # French
-  "desinscription", "desinscrire", "desabonner", "desabonnement",
+  "desinscri", "desabonne",
   "ne souhaitez plus", "ne plus recevoir", "cesser de recevoir",
 
   # German
